@@ -40,9 +40,8 @@ namespace Tema1
             double.TryParse(DovzhSHP.Text, out dovzhshp);
             double.TryParse(ShirSHP.Text, out shirshp);
             double.TryParse(Price1rul.Text, out price1rul);
-            
-            
-            kilkstshp = ((shirkim*dovzhkim)/shirshp)/(dovzhshp/viskim);
+
+            kilkstshp = (2 * (dovzhkim + shirkim) * (viskim + 0.1)) / (shirshp * dovzhshp); 
             KlkstSHP.Text =  kilkstshp.ToString("0");
             finalprice = kilkstshp * price1rul;
             Resultprice.Text = finalprice.ToString("0") ;

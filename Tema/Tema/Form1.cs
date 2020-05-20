@@ -48,10 +48,13 @@ namespace Tema
                 int y = (int)Math.Pow((double)(x-mp[1]), (double)mp[5])+mp[3];
                 if (onetime == false)
                     onetime = true;
+                if(x==0)
+                    resultbox.Text="Заданная прямая пересекается с осью ординат в точке С"
                 else DrawLine(x, y, oldx, oldy, e);
                  oldx = x; oldy = y;
                 
             }
+            
             
         }
         public void DrawPoint(int x, int y, PaintEventArgs k)

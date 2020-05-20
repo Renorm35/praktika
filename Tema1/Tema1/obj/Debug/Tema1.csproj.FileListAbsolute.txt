@@ -8,3 +8,13 @@ C:\Users\User\Desktop\Praktika\Tema1\Tema1\obj\Debug\Tema1.csproj.GenerateResour
 C:\Users\User\Desktop\Praktika\Tema1\Tema1\obj\Debug\Tema1.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Praktika\Tema1\Tema1\obj\Debug\Tema1.exe
 C:\Users\User\Desktop\Praktika\Tema1\Tema1\obj\Debug\Tema1.pdb
+\\Mac\Home\Desktop\praktika2-master\Tema1\Tema1\bin\Debug\Tema1.exe.config
+\\Mac\Home\Desktop\praktika2-master\Tema1\Tema1\bin\Debug\Tema1.exe
+\\Mac\Home\Desktop\praktika2-master\Tema1\Tema1\bin\Debug\Tema1.pdb
+\\Mac\Home\Desktop\praktika2-master\Tema1\Tema1\obj\Debug\Tema1.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\praktika2-master\Tema1\Tema1\obj\Debug\Tema1.Form1.resources
+\\Mac\Home\Desktop\praktika2-master\Tema1\Tema1\obj\Debug\Tema1.Properties.Resources.resources
+\\Mac\Home\Desktop\praktika2-master\Tema1\Tema1\obj\Debug\Tema1.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\praktika2-master\Tema1\Tema1\obj\Debug\Tema1.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\praktika2-master\Tema1\Tema1\obj\Debug\Tema1.exe
+\\Mac\Home\Desktop\praktika2-master\Tema1\Tema1\obj\Debug\Tema1.pdb

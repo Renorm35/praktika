@@ -86,7 +86,7 @@ namespace Tema2._2
                 int[] sum = new int[n];
                 for (int i = 0; i < n; ++i)
                 {
-                    for (int j = 0; j <n; ++j)
+                    for (int j = 0; j <m; ++j)
                     {
                         if (A[i, j] < 0)
                         {
