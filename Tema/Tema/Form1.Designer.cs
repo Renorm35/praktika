@@ -43,8 +43,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.resultbox = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.resultbox.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -202,12 +204,22 @@
             // 
             // resultbox
             // 
+            this.resultbox.Controls.Add(this.label7);
             this.resultbox.Location = new System.Drawing.Point(722, 309);
             this.resultbox.Name = "resultbox";
             this.resultbox.Size = new System.Drawing.Size(352, 170);
             this.resultbox.TabIndex = 9;
             this.resultbox.TabStop = false;
+            this.resultbox.Tag = "";
             this.resultbox.Text = "Результат";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(20, 55);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(0, 25);
+            this.label7.TabIndex = 0;
             // 
             // Form1
             // 
@@ -224,6 +236,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.resultbox.ResumeLayout(false);
+            this.resultbox.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -245,6 +259,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox resultbox;
+        private System.Windows.Forms.Label label7;
     }
 }
 
