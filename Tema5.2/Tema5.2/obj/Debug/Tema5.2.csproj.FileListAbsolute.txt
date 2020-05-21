@@ -8,3 +8,4 @@
 \\Mac\Home\Desktop\praktika2-master\Tema5.2\Tema5.2\obj\Debug\Tema5.2.csproj.CoreCompileInputs.cache
 \\Mac\Home\Desktop\praktika2-master\Tema5.2\Tema5.2\obj\Debug\Tema5.2.exe
 \\Mac\Home\Desktop\praktika2-master\Tema5.2\Tema5.2\obj\Debug\Tema5.2.pdb
+\\Mac\Home\Desktop\praktika2-master\Tema5.2\Tema5.2\obj\Debug\Tema5._2.Result.resources

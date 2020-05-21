@@ -10,18 +10,16 @@ using System.Windows.Forms;
 using System.Data.OleDb;
 using Tema5._2.Controller;
 
-
 namespace Tema5._2
 {
-    public partial class Form1 : Form
+    public partial class Result : Form
     {
-        Query controller;
-        public Form1()
+        Query2 controller;
+        public Result()
         {
             InitializeComponent();
-            controller = new Query(ConnectionString.ConnStr);
+            controller = new Query2(ConnectionString.ConnStr);
         }
-
         private void Update_Click(object sender, EventArgs e)
         {
             dataGridView1.DataSource = controller.UpdateInfo();
@@ -29,25 +27,24 @@ namespace Tema5._2
 
         private void Insert_Click(object sender, EventArgs e)
         {
-            controller.Add(film.Text, zhanr.Text, int.Parse(Cena.Text));
+            controller.Add(int.Parse(Shop.Text), Film.Text, int.Parse(klkprd.Text));
         }
 
         private void Delete_Click(object sender, EventArgs e)
         {
-            controller.Delete(int.Parse(dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells["Kod_Filmu"].Value.ToString()));
+            controller.Delete(int.Parse(dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells["Kod"].Value.ToString()));
         }
 
-        private void resultToolStripMenuItem_Click(object sender, EventArgs e)
+        private void filmsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Result newForm = new Result();
-            this.Hide();
-            newForm.Show();
+            Form1 nF = new Form1();
+            this.Close();
+            nF.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Close();
-            
         }
     }
 }

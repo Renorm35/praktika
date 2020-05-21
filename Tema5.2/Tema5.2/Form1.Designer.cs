@@ -38,7 +38,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.filmsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Cena
@@ -95,11 +100,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(32, 51);
+            this.dataGridView1.Location = new System.Drawing.Point(32, 67);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
             this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(1439, 1145);
+            this.dataGridView1.Size = new System.Drawing.Size(1439, 1129);
             this.dataGridView1.TabIndex = 7;
             // 
             // label1
@@ -129,11 +134,49 @@
             this.label4.TabIndex = 16;
             this.label4.Text = "Цена";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.filmsToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(2144, 40);
+            this.menuStrip1.TabIndex = 17;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // filmsToolStripMenuItem
+            // 
+            this.filmsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.resultToolStripMenuItem});
+            this.filmsToolStripMenuItem.Name = "filmsToolStripMenuItem";
+            this.filmsToolStripMenuItem.Size = new System.Drawing.Size(90, 38);
+            this.filmsToolStripMenuItem.Text = "Films";
+            // 
+            // resultToolStripMenuItem
+            // 
+            this.resultToolStripMenuItem.Name = "resultToolStripMenuItem";
+            this.resultToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.resultToolStripMenuItem.Text = "Result";
+            this.resultToolStripMenuItem.Click += new System.EventHandler(this.resultToolStripMenuItem_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1544, 1004);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(553, 60);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Close";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(2144, 1208);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -144,9 +187,12 @@
             this.Controls.Add(this.Insert);
             this.Controls.Add(this.Update);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.menuStrip1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Films";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,6 +210,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem filmsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem resultToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }
 
